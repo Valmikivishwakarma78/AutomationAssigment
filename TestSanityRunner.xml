@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Automation Test Suite">
+
+	<listeners>
+		<listener
+			class-name="listeners.customTestListener" />
+
+	</listeners>
+	
+
+	<test name="VerifyAscendingOrderProductPriceTest">
+		<classes>
+			<class name="testcases.VerifyAscendingOrderProductPriceTest" />
+		</classes>
+	</test>
+
+
+	<test name="VerifyDescendingOrderProductPriceTest">
+		<classes>
+			<class name="testcases.VerifyDescendingOrderProductPriceTest" />
+		</classes>
+	</test>
+
+
+	<test name="VerifyEndtoEndTest">
+		<classes>
+			<class name="testcases.VerifyEndtoEndTest" />
+		</classes>
+	</test>
+
+
+
+</suite>	
